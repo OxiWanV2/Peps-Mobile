@@ -33,8 +33,8 @@ android {
         applicationId = "be.lorenzogallo.pepsmobile"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.1"
+        versionCode = providers.gradleProperty("appVersionCode").map { it.toInt() }.getOrElse(1)
+        versionName = providers.gradleProperty("appVersionName").getOrElse("1.0.1")
         vectorDrawables.useSupportLibrary = true
     }
 
