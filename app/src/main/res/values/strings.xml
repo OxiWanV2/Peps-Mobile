@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pep\'s Mobile</string>
+    <string name="widget_name">Journal du jour</string>
+    <string name="widget_refresh">Actualiser</string>
+    <string name="widget_description">Cours restants aujourd\'hui et prochaine évaluation</string>
+</resources>
